@@ -22,7 +22,7 @@ export default function Resume() {
         <div className="gallery-content">
           <div className="resume-embed">
             <iframe
-              src="/Shahriar_CV.pdf"
+              src={`${import.meta.env.BASE_URL}Shahriar_CV.pdf`}
               title="Resume"
               className="resume-embed-iframe"
             />
